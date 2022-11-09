@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/303406273c.js" crossorigin="anonymous"></script>
+    <title>Nikko - Sushi</title>
+    <link rel="stylesheet" href="inicial.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">  Nikkō  日光 </h1>
+        <ul class="nav-links">
+            <div class="box-buttons">             
+               <li> <a href="login/login.html" class="btn btn-efeito"><span> Login</span></a></li>
+             </div><!--Box Buttons-->
+             <div class="box-buttons">               
+                <li><a href="cadastro2/cadastro.html" class="btn btn-efeito"><span> Cadastro</span></a></li>
+             </div><!--Box Buttons-->
+             <div class="box-buttons">               
+                <li><a href="cardapio/Cardapio.html" class="btn btn-efeito"><span> Cardápio</span></a></li>
+             </div><!--Box Buttons-->
+
+             <div class="box-buttons">               
+               <li><a href="" class="btn btn-efeito"><span> Sobre Nós</span></a></li>
+             </div><!--Box Buttons-->
+           
+        <img src="/img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+     <header>
+       <div class="header-content">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br><center>
+        <div class="container glass">
+            <br>
+            <br>
+        <h2> Bem Vindos à</h2>
+       <div class="line"></div>
+       <h1>Nikkō - Sushi & Bar</h1>
+       <div class="line"></div>
+       <div class="logos">
+        <img src="./sushi/nikko.png"
+       </center>
+    </div>
+       </div>
+       </div>
+     </header>
+    <!-- == Events == -->
+    <section class="events">
+        <div class="title">
+            <h1>Pratos Destaques</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="sushi/gui.jpg" width="420" height="300">
+                <h4> Guioza de Carne Suína</h4>
+                <p>Massa japonesa, Carne Suína com temperos orientais desfiada, Coentro (á vapor)</p>
+                <a href="#" class="ctn">Ir para o Cardápio</a>
+            </div>
+            <div class="col">
+                <img src="sushi/cru.webp" width="420" height="300">
+                <h4> Temaki de Salmão com Cream Cheese</h4>
+                <p> Gohan, Alga, Salmão, Cream Cheese e Cebolinha (cru)</p>
+                <a href="#" class="ctn">Ir para o Cardápio</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col">
+                <h1>Sobre Nós</h1>
+                <div class="line"></div>
+                <p> Nikkō Sushi & Bar foi fundado em Lins,SP no ano de 2007, por duas irmãs conhecidas como Aiko Kunni e Ayumi Kunni. Elas tinham como principal objetivo trazer um pouco da gastronomia japonesa para o Brasil para que os brasileiros pudessem degustar outros tipos de comida, saindo do "padrão brasileiro". Nikkō significa "Raio de Sol" na língua japonesa, foi dado esse nome ao restaurante pois as irmãs acreditam que sempre devemos ser luz na vida das pessoas, e sempre as deseja-lás o bem! </p>
+                <br>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./sushi/resttt.jpg" alt="">
+                    <img src="./sushi/restt.jpg" alt="">
+                    <img src="./sushi/rest2.jpg" alt="">
+                    <img src="./sushi/rest.jpg" alt=""> 
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <center>
+        <div class="wrapper">
+            <div class="icon facebook"> 
+               <div class="tooltip">
+                  Facebook
+               </div> 
+               <span><i class="fab fa-facebook-f"></i></span>
+            </div>
+            <div class="icon instagram">
+               <div class="tooltip">
+                  Instagram
+               </div>
+               <span><i class="fab fa-instagram"></i></span>
+            </div>
+            <div class="icon whats">
+               <div class="tooltip">
+                  Whatsapp
+               </div>
+               <span><i class="fab fa-whatsapp"></i></span>
+            </div>
+         </div>
+        </center>
+    </section>
+
+    <section class="footer">
+        <p> Rua Oyama Quadres - 195 Lins,SP </p>
+        <p> Telefone: (14) 35327589   Whatsapp: (14) 98639-0079</p>
+    </section>
+
+    
+    <script>
+        const menuBnt = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBnt.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+        
+
+        
+
+    </script>
+</body>
+</html>
